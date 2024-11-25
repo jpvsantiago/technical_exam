@@ -1,5 +1,3 @@
-welcome_message = "```\nWelcome to Auto Driving Car Simulation!\n"
-
 #class Car to contain attributes of all the instances of cars added in the field
 class Car:
     def __init__(self, car_name, x_axis, y_axis, direction, commands=None):
@@ -233,7 +231,7 @@ def menu():
 
 #main function to contain the flow of the program
 def main():
-    print(welcome_message)
+    print("```\nWelcome to Auto Driving Car Simulation!\n")
     param_width, param_height = input_axes()
     grid_field = Grid(param_width, param_height)
     
